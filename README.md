@@ -1,92 +1,102 @@
-#### Purpose :     
-####  Store and search e-books ,  create Forum for reader to make comments
+## Purpose :     
+###  Calculate petrol cost of business trips, for accounting claim. 
+
+#### www/template/startPoint.html
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/74f8d075-30ef-48df-871a-9fa2c70c868f)
 
 
+#### www/templates/endpoint.html
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/043b044f-2388-4ae4-9917-c97963fcaa1b)
+
+#### The total petrol cost for today’s trip
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/8f24ec43-44ad-42e9-98db-5fcf3d99cf7d)
+
+
+#### •	The records list of Trips
+#### www/templates/history.html
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/462aba35-9efa-4b0c-ad4d-12f841f96eb4)
+
+
+####  Users can edit and delete of trips
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/eab29c43-3b46-496d-9d2d-293303d7ee77)
+
+
+### Given start and end location , the App calculates petrol cost, records business trips,  updata the trips
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    . Can store mileage in mobile when no Wi Fi, then synchronize to cloud DB when has Wi Fi
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    . The App website was hosted on:              AWS EC2 server
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    . The App mobile version was uploaded to:     Google Play store
 
 
 	
-####  Prerequisite installation:
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . node.js                          
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . npm
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . react            
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . materialUI
+## Prerequisite installation:
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . node.js                          
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . npm
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . angular dependencies            
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . ionic   
 
 
 
 
-####   Main Packages
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . UI:      &nbsp;&nbsp;&nbsp;&nbsp;       MaterialUI
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Front end: &nbsp;&nbsp;&nbsp;&nbsp;     React, Redux
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Back end: &nbsp;&nbsp;&nbsp;&nbsp;      node.js, Knex.js
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Data storage:  &nbsp;&nbsp;&nbsp;&nbsp; SQLite &nbsp;&nbsp;&nbsp;&nbsp;   
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Tools: &nbsp;&nbsp;&nbsp;&nbsp; webpack, babel, npm 
-
-####  How to run
-##### npm install
-##### npm run dev
-##### npm run test
+##  Main Packages
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . UI:      &nbsp;&nbsp;&nbsp;&nbsp;   ionic-- Mobile Native
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Front end: &nbsp;&nbsp;&nbsp;&nbsp;     angular,  angular-ui-router
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Back end: &nbsp;&nbsp;&nbsp;&nbsp;      ngStorage
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Data storage:  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   pouchDB API for saving dato into couchDB via HTTP
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . Tools: &nbsp;&nbsp;&nbsp;&nbsp;   Cordova Build for Mobile App, Use bower for package management 
 
 
 
 
+## Mileage Modules: :
 
+
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/292d9c33-2e32-4484-8756-4df81a0b068f)
 
 
 
 
 
-##### client/components/login.jsx
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/fa7d98b9-024c-4a27-ab56-69267034460b)
-
-
-##### After login, display all repos, video links
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/788c3721-aefc-46fc-80b9-52f9e17cfdca)
 
 
 
-##### create a new Video
-
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/251fdaa0-982f-4684-8a1b-52a9a322d144)
-
-
-##### Enter the Forum page
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/53841ebd-cff6-471c-a0af-5f61b6b22ecf)
+## Solution Architect
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  System based on MVC Model-View-Controller Architect: 
 
 
-##### create a post in Forum
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/b38b4d69-fd2d-471f-8919-705c00d90e12)
-
-##### A new Post was created
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/49381a1b-f7b2-461e-86ad-1251f7740de4)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/82a4d82d-c6d7-4b93-9c9f-36bf9cada1ff)
 
 
 
-#### Solution Architect
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  System based on RESTful Architect: 
-
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/235a59ae-c943-474b-95f0-b3251e89bb14)
 
 
 
-####  Use Post data to illustrates Data Flow from Front end_To_Back end_to DB 
 
-#####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Users Submit a Post
+##  Use case to illustrates Data Flow from Front end_To_Back end_to DB 
 
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Users enter and submit meter reading
 
-##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/1a3323df-dae6-42f3-95ee-5fdfcbcde7d1)
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Step one: 
 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Views:     www/template/startPoint.html
 
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/97875f83-ba33-4180-8c8d-099186471c74)
-
- ![image](https://github.com/githubmave/aihe-Book/assets/8073738/bd229dfa-2bd1-4cef-81ed-aae61ab59bf1)
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/d3bfcb47-3c3d-4701-93eb-855b27947190)
-![image](https://github.com/githubmave/aihe-Book/assets/8073738/24b6758f-ceb1-4321-ae05-d38dd84384a1)
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/1e26887f-2ded-4ce0-992c-0497bfc3f745)
 
 
+####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Step Two:
+
+
+####  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Controller:         www/js/app.js
+
+
+  ![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/b04edb23-4ce8-4880-aff1-f740d1a9f6db)
+ 
    
 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A Controller and a view is One-to-One mapping. 
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; www/js/app.js
+![image](https://github.com/githubmave/Mobile-Mileage-Tracker/assets/8073738/c44798a8-c976-4fce-b997-1a65002faa76)
 
  
 
