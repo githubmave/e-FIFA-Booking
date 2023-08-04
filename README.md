@@ -8,7 +8,7 @@
 #### Add tickets to Shopping Cart
 ![image](https://github.com/githubmave/e-FIFA-Booking/assets/8073738/c975ca4b-2828-48c5-9641-cd7477594d6e)
 
-#### Continuously 
+#### Add other selected tickets
 ![image](https://github.com/githubmave/e-FIFA-Booking/assets/8073738/f71176cc-1bfd-4533-b490-67a06fba4cbf)
 
 
