@@ -1,7 +1,7 @@
 ## Purpose :     
-* ###  Online FIFA Ticket Booking
+* ####  Online FIFA Ticket Booking
 
-* #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Choose tickets for FIFA
+* ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Choose tickets for FIFA
 ![image](https://github.com/githubmave/e-FIFA-Booking/assets/8073738/f20801d6-6c44-4ded-8437-7bf6129aa93b)
 
 
@@ -17,7 +17,7 @@
 
 	
 ## Prerequisite installation:
-* #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . node.js                          
+*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . node.js                          
 * #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . npm
 * #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . angular dependencies            
 * #### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . boostrap  
