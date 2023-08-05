@@ -28,11 +28,11 @@
 
 
 ##  Main Packages
-. ####   UI:      &nbsp;&nbsp;&nbsp;&nbsp;   boostrap
-. ####  Front end: &nbsp;&nbsp;&nbsp;&nbsp;     angular,  angular-ui-router
-.#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Back end: &nbsp;&nbsp;&nbsp;&nbsp;      ngStorage, 
-.#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Data storage:  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   $localStorage
-.#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tools: &nbsp;&nbsp;&nbsp;&nbsp;   npm 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  UI:      &nbsp;&nbsp;&nbsp;&nbsp;   boostrap
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Front end: &nbsp;&nbsp;&nbsp;&nbsp;     angular,  angular-ui-router
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Back end: &nbsp;&nbsp;&nbsp;&nbsp;      ngStorage, 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Data storage:  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   $localStorage
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Tools: &nbsp;&nbsp;&nbsp;&nbsp;   npm 
 
 ## How to run
 * ##### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; npm install
