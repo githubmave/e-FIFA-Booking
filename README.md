@@ -1,7 +1,7 @@
 ## Purpose :  
 + ##### &nbsp;&nbsp;&nbsp;&nbsp;  The following would show:
-  ##### &nbsp;&nbsp;&nbsp;&nbsp;  A) Solution Architect Map
-  ##### &nbsp;&nbsp;&nbsp;&nbsp; B) Use Case Data Flow Chart
+  ##### &nbsp;&nbsp;&nbsp;&nbsp;  A) Map for this system 's architect
+  ##### &nbsp;&nbsp;&nbsp;&nbsp; B)  Data Flow Chart for one use case
 + #####  &nbsp;&nbsp;&nbsp;&nbsp;  This App is for Online FIFA Ticket Booking
 
 * #####  Choose tickets for FIFA
